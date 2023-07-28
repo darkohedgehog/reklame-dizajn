@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Services from "./pages/services/Services";
@@ -13,7 +13,7 @@ import ParticlesBg from 'particles-bg';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/reklame-dizajn">
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
