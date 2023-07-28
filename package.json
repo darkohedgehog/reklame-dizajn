@@ -1,7 +1,7 @@
 {
   "name": "studiodesign",
   "version": "0.1.0",
-  "homepage": "https://github.io/darkohedgehog/reklame-dizajn",
+  "homepage": "https://darkohedgehog.github.io/reklame-dizajn",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
