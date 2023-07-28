@@ -13,7 +13,7 @@ import ParticlesBg from 'particles-bg';
 
 const App = () => {
   return (
-    <Router basename="/reklame-dizajn">
+    <Router>
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
