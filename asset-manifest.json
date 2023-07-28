@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/darkohedgehog/reklame-dizajn/static/css/main.4724311f.css",
-    "main.js": "/darkohedgehog/reklame-dizajn/static/js/main.75233fa4.js",
+    "main.js": "/darkohedgehog/reklame-dizajn/static/js/main.f437b2ac.js",
     "static/media/gallery9.jpg": "/darkohedgehog/reklame-dizajn/static/media/gallery9.8e970c5e6b2c9fe3fa9b.jpg",
     "static/media/Restoran_DI_Hilton.jpg": "/darkohedgehog/reklame-dizajn/static/media/Restoran_DI_Hilton.25692e56e06fa0d561d3.jpg",
     "static/media/Lo-la2.jpg": "/darkohedgehog/reklame-dizajn/static/media/Lo-la2.daf9ad612ae183630940.jpg",
@@ -24,10 +24,10 @@
     "static/media/dizajn-studio-low-resolution-logo-color-on-transparent-background.png": "/darkohedgehog/reklame-dizajn/static/media/dizajn-studio-low-resolution-logo-color-on-transparent-background.36a42dd936d92122160c.png",
     "index.html": "/darkohedgehog/reklame-dizajn/index.html",
     "main.4724311f.css.map": "/darkohedgehog/reklame-dizajn/static/css/main.4724311f.css.map",
-    "main.75233fa4.js.map": "/darkohedgehog/reklame-dizajn/static/js/main.75233fa4.js.map"
+    "main.f437b2ac.js.map": "/darkohedgehog/reklame-dizajn/static/js/main.f437b2ac.js.map"
   },
   "entrypoints": [
     "static/css/main.4724311f.css",
-    "static/js/main.75233fa4.js"
+    "static/js/main.f437b2ac.js"
   ]
 }
