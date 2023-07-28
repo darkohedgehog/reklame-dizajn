@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Services from "./pages/services/Services";
@@ -13,15 +13,17 @@ import ParticlesBg from 'particles-bg';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/reklame-dizajn">
       <Navbar />
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/services" component={Services} />
-      <Route path="/gallery" component={Gallery} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/terms" component={Terms} />
-      <Route path="*" component={NotFound} />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
       <Footer />
       <div className="particles-bg-container">
         <ParticlesBg type="cobweb" bg={true} />
